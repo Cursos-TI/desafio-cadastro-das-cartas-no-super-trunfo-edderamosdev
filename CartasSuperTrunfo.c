@@ -21,53 +21,78 @@ int main() {
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
 
-        printf("Vamos começar cadastrando os dados da Carta 1...\n");
-        
-        printf("Digite o a letra do estado: ");
-        scanf(" %c", &estado1);
-
-        printf("Digite o código do estado: ");
-        scanf(" %s", &codigo1);
-
-        printf("Digite o nome da cidade: ");
-        scanf(" %s", &nome1);
-
-        printf("Digite a população: ");
-        scanf(" %i", &populacao1);
-
-        printf("Digite a área em km²: ");
-        scanf(" %f", &area1);
-
-        printf("Digite o PIB: ");
-        scanf(" %f", &pib1);
-
-        printf("Digite a quantidade de pontos turísticos: ");
-        scanf(" %i", &pontosturisticos1);
+        printf("No nosso jogo de super trunfo iremos competir com atributos de cidades brasileiras,\n
+        para isso precisamos primeiramente cadastrar as cartas...\n");
 
         printf("\n \n");
 
-        printf("Vamos começar cadastrando os dados da Carta 2...\n");
+        printf("Vamos começar cadastrando os dados da Carta 1...\n");
         
-        printf("Digite o a letra do estado: ");
-        scanf(" %c", &estado2);
+        printf("\n");
+        
+        printf("Defina uma letra para representar o estado(de A à H):   ");
+        scanf(" %c", &estado1); //Tipo de dados(%) 'c' pois está sendo solicitado apenas 1 caractere
+                                //Armazenando(&) na variável 'estado1'
 
-        printf("Digite o código do estado: ");
-        scanf(" %s", &codigo2);
+        printf("Defina um código de 2 caracteres para representar o estado:   ");
+        scanf(" %2s", &codigo1); //Tipo de dados(%) 's' pois está sendo solicitado uma string com mais de um caractere
+                                //Número '2' antes do 's' para delimitar a quantidade de caracteres da string
+                                //Armazenando(&) na variável 'codigo1'
 
-        printf("Digite o nome da cidade: ");
-        scanf(" %s", &nome2);
+        printf("Digite o nome da cidade:   ");
+        scanf(" %s", &nome1); //Tipo de dados(%) 's' pois está sendo solicitado uma string com mais de um caractere
+                             //Armazenando(&) na variável 'nome1'
 
         printf("Digite a população: ");
-        scanf(" %i", &populacao2);
+        scanf(" %i", &populacao1); //Tipo de dados(%) 'i' pois está sendo solicitado um número inteiro
+                                  //Armazenando(&) na variável 'populacao1'
 
         printf("Digite a área em km²: ");
-        scanf(" %f", &area2);
+        scanf(" %f", &area1); //Tipo de dados(%) 'f' pois está sendo solicitado um número com casas decimais
+                              //Armazenando(&) na variável 'area1'
 
         printf("Digite o PIB: ");
-        scanf(" %f", &pib2);
+        scanf(" %f", &pib1); //Tipo de dados(%) 'f' pois está sendo solicitado um número com casas decimais
+                             //Armazenando(&) na variável 'pib1'
 
         printf("Digite a quantidade de pontos turísticos: ");
-        scanf(" %i", &pontosturisticos2);
+        scanf(" %i", &pontosturisticos1);//Tipo de dados(%) 'i' pois está sendo solicitado um número inteiro
+                                         //Armazenando(&) na variável 'pontosturisticos1
+
+        printf("\n \n");
+
+        printf("Agora vamos cadastrar os dados da Carta 2...\n");
+
+        printf("\n");
+
+        printf("Defina uma letra para representar o estado(de A à H):   ");
+        scanf(" %c", &estado2); //Tipo de dados(%) 'c' pois está sendo solicitado apenas 1 caractere
+                                //Armazenando(&) na variável 'estado2'
+
+        printf("Defina um código de 2 caracteres para representar o estado:   ");
+        scanf(" %2s", &codigo2); //Tipo de dados(%) 's' pois está sendo solicitado uma string com mais de um caractere
+                                //Número '2' antes do 's' para delimitar a quantidade de caracteres da string
+                                //Armazenando(&) na variável 'codigo2'
+
+        printf("Digite o nome da cidade:   ");
+        scanf(" %s", &nome2); //Tipo de dados(%) 's' pois está sendo solicitado uma string com mais de um caractere
+                             //Armazenando(&) na variável 'nome2'
+
+        printf("Digite a população: ");
+        scanf(" %i", &populacao2); //Tipo de dados(%) 'i' pois está sendo solicitado um número inteiro
+                                  //Armazenando(&) na variável 'populacao2'
+
+        printf("Digite a área em km²: ");
+        scanf(" %f", &area2); //Tipo de dados(%) 'f' pois está sendo solicitado um número com casas decimais
+                              //Armazenando(&) na variável 'area2'
+
+        printf("Digite o PIB: ");
+        scanf(" %f", &pib2); //Tipo de dados(%) 'f' pois está sendo solicitado um número com casas decimais
+                             //Armazenando(&) na variável 'pib2'
+
+        printf("Digite a quantidade de pontos turísticos: ");
+        scanf(" %i", &pontosturisticos2);//Tipo de dados(%) 'i' pois está sendo solicitado um número inteiro
+                                         //Armazenando(&) na variável 'pontosturisticos2
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.

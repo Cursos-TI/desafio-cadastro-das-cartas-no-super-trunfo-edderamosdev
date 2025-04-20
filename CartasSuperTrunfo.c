@@ -21,8 +21,8 @@ int main() {
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
 
-        printf("No nosso jogo de super trunfo iremos competir com atributos de cidades brasileiras,\n
-        para isso precisamos primeiramente cadastrar as cartas...\n");
+        printf("No nosso jogo de super trunfo iremos competir com atributos de cidades brasileiras,\n");
+        printf("para isso precisamos primeiramente cadastrar as cartas...\n");
 
         printf("\n \n");
 
@@ -102,17 +102,17 @@ int main() {
     
     printf("Carta 1: \n");
     printf("Letra do Estado: ");
-    printf("%c\n", estado1);
+    printf(" %c\n", estado1);
     printf("Código: ");
-    printf("%c", "%c\n", estado1, codigo1);
+    printf(" %c%2s\n", estado1, codigo1);
     printf("Nome da Cidade: ");
     printf("%s\n", nome1);
     printf("População: ");
     printf("%i\n", populacao1);
     printf("Área: ");
-    printf("%f\n", area1, "km²");
+    printf("%f km²\n", area1);
     printf("PIB: ");
-    printf("%f\n", pib1, "bilhões de reais");
+    printf("%f bilhões de reais\n", pib1);
     printf("Número de ponstos turísticos: ");
     printf("%i\n", pontosturisticos1);
 
@@ -120,18 +120,18 @@ int main() {
 
     printf("Carta 2: \n");
     printf("Letra do Estado: ");
-    printf("%c\n", estado2);
+    printf(" %c\n", estado2);
     printf("Código: ");
-    printf("%c", "%c\n", estado2, codigo2);
+    printf(" %c%2s\n", estado2, codigo2);
     printf("Nome da Cidade: ");
     printf("%s\n", nome2);
     printf("População: ");
     printf("%i\n", populacao2);
     printf("Área: ");
-    printf("%f\n", area2, "km²");
+    printf("%f km²\n", area2);
     printf("PIB: ");
-    printf("%f\n", pib2, "bilhões de reais");
-    printf("Número de pontos turísticos");
+    printf("%f bilhões de reais\n", pib2);
+    printf("Número de ponstos turísticos: ");
     printf("%i\n", pontosturisticos2);
 
     return 0;

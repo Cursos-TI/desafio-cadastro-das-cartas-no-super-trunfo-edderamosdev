@@ -150,5 +150,20 @@ int main() {
 
     printf("\n \n");
 
+    printf("Comparação de cartas (Atributo: População):\n");
+    printf("Carta 1 - %s", nome1);
+    printf(": %i\n", populacao1);
+    printf("Carta 2 - %s", nome2);
+    printf(": %i\n", populacao2);
+
+    printf("Resultado: ");
+    if (densidade1 < densidade2) {
+    printf("%s venceu!\n", nome1);
+  } else {
+    printf("%s venceu!\n", nome2);
+  }
+
+
+
     return 0;
 }

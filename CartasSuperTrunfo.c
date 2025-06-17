@@ -13,7 +13,7 @@ int main() {
         char codigo1[2], codigo2[2];
         char nome1[50], nome2[50];
         int populacao1, populacao2;
-        float area1, area2;
+        float area1, area2, densidade1, densidade2;
         float pib1, pib2;
         int pontosturisticos1, pontosturisticos2;
 
@@ -133,6 +133,14 @@ int main() {
     printf("%f bilhões de reais\n", pib2);
     printf("Número de ponstos turísticos: ");
     printf("%i\n", pontosturisticos2);
+
+    printf("\n \n");
+
+    densidade1 = populacao1 / area1;
+    printf("Densidade populacional da carta 1: %f\n", densidade1);
+    printf("\n");
+    densidade2 = populacao2 / area2;
+    printf("Densidade populacional da carta 2: %f\n", densidade2);
 
     return 0;
 }
